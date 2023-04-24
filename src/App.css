@@ -1,0 +1,117 @@
+@import url('https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
+/* Body */
+body {
+  font-family: sans-serif;
+}
+
+/* Container */
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E6FFFA;
+  margin-top: 20px;
+}
+
+/* Task list box */
+.task-list-box {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin: 1rem;
+  width: 100%;
+  max-width: 30rem;
+}
+
+/* Task list title */
+.task-list-title {
+  font-size: 1.875rem;
+  font-weight: 500;
+  color: #4F46E5;
+  margin-bottom: 0.5rem;
+}
+
+/* Task input box */
+.task-input {
+  appearance: none;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 0.75rem;
+  margin-right: 1rem;
+  color: #2D3748;
+  width: 100%;
+  max-width: 18rem;
+}
+
+/* Task button */
+.task-button {
+  padding: 0.5rem;
+  border: 2px solid #4F46E5;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #4F46E5;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.task-button:hover {
+  background-color: #4338CA;
+}
+
+/* Edit button */
+.edit-button {
+  flex-shrink: 0;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  border: 2px solid #10B981;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #10B981;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.edit-button:hover {
+  background-color: #047857;
+}
+
+/* Delete button */
+.delete-button {
+  flex-shrink: 0;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 2px solid #EF4444;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #EF4444;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.delete-button:hover {
+  background-color: #DC2626;
+}
+
+/* Complete button */
+.complete-button {
+  flex-shrink: 0;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 2px solid #3B82F6;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #3B82F6;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.complete-button:hover {
+  background-color: #2563EB;
+}
+
+/* Completed task */
+.completed-task {
+  text-decoration: line-through;
+  color: #9CA3AF;
+}
